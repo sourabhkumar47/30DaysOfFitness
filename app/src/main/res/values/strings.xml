@@ -27,7 +27,7 @@
     <string name="day5_Equipment">Equipment: Dumbbells</string>
 
     <string name="day6">Day 6:</string>
-    <string name="day6_name">20-Minute Full Body HIIT with Weights</string>
+    <string name="day6_name">20-Minute c HIIT with Weights</string>
     <string name="day6_time">Workout Time: 20 Minutes</string>
     <string name="day6_Equipment">Equipment: Dumbbells</string>
 
@@ -77,7 +77,7 @@
     <string name="day15_Equipment">Equipment: Dumbbells and Optional Mini Loop Resistance Band</string>
 
     <string name="day16">Day 16:</string>
-    <string name="day16_name">25-Minute Back Workout and 5-Minute Ab Workout</string>
+        <string name="day16_name">25-Minute Back Workout and 5-Minute Ab Workout</string>
     <string name="day16_WorkoutTime">Workout Time: 30 Minutes</string>
     <string name="day16_Equipment">Equipment: Dumbbells</string>
 
@@ -151,13 +151,4 @@
     <string name="day30_time">Workout Time: 20 Minutes</string>
     <string name="day30_Equipment">Equipment: Dumbbells</string>
 
-
-    Day 29:
-    30-Minute Total Body HIIT with Weights
-    Workout Time: 30 Minutes
-    Equipment: Dumbbells
-    Day 30:
-    20-Minute Full Body HIIT Workout
-    Workout Time: 20 Minutes
-    Equipment: Dumbbells
 </resources>
