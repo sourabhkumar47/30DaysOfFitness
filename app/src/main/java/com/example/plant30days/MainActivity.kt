@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -24,9 +25,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.plant30days.model.Data.ExerciseRepo.exercises
@@ -85,16 +90,24 @@ fun ExInfo(
     @StringRes exDay: Int,
     @StringRes exName: Int
 ) {
-    Column{
-        Text(
-            text = stringResource(exDay),
-            Modifier.padding(top = 8.dp)
-        )
-        Text(
-            text = stringResource(exName),
-            Modifier.padding(top = 8.dp)
-        )
+    Box {
+        Column {
+            Text(
+                text = stringResource(exDay),
+                Modifier.padding(top = 8.dp),
+                style = TextStyle(
+                    shadow = Shadow(
+                        color = Color.Blue, blurRadius = 10f
+                    )
+                )
+            )
+            Text(
+                text = stringResource(exName),
+                Modifier.padding(top = 8.dp)
+            )
+        }
     }
+
 }
 
 
