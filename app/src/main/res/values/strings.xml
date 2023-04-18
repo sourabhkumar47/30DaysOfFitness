@@ -2,57 +2,57 @@
     <string name="app_name">Fitness Freek</string>
 
     <string name="day1">Day 1:</string>
-    <string name="day1_name">30-Minute Leg Workout At Home</string>
+    <string name="day1_name">Leg Workout At Home</string>
     <string name="day1_Equipment">Equipment: Dumbbells and Optional Mini Loop Resistance Band</string>
     <string name="day1_time">Workout Time: 30 Minutes</string>
 
     <string name="day2">Day 2:</string>
-    <string name="day2_name">30-Minute Upper Body HIIT Workout</string>
+    <string name="day2_name">Upper Body HIIT Workout</string>
     <string name="day2_Equipment">Equipment: Dumbbells</string>
     <string name="day2_time">Workout Time: 30 Minutes</string>
 
     <string name="day3">Day 3:</string>
-    <string name="day3_name">30-Minute Cardio and Abs Workout</string>
+    <string name="day3_name">Cardio and Abs Workout</string>
     <string name="day3_Equipment">Equipment: One Dumbbell</string>
     <string name="day3_time">Workout Time: 30 Minutes</string>
 
     <string name="day4">Day 4:</string>
-    <string name="day4_name">Rest Day OR 10-Minute Barre Butt and Abs</string>
+    <string name="day4_name">Rest Day OR Barre Butt and Abs</string>
     <string name="day4_time">Workout Time: 10 Minutes</string>
     <string name="day4_Equipment">Equipment: None, Bodyweight Workout</string>
 
     <string name="day5">Day 5:</string>
-    <string name="day5_name">30-Minute Total Body Pyramid Workout</string>
+    <string name="day5_name">Total Body Pyramid Workout</string>
     <string name="day5_time">Workout Time: 30 Minutes</string>
     <string name="day5_Equipment">Equipment: Dumbbells</string>
 
     <string name="day6">Day 6:</string>
-    <string name="day6_name">20-Minute c HIIT with Weights</string>
+    <string name="day6_name">HIIT with Weights</string>
     <string name="day6_time">Workout Time: 20 Minutes</string>
     <string name="day6_Equipment">Equipment: Dumbbells</string>
 
     <string name="day7">Day 7:</string>
-    <string name="day7_name">Rest Day 10-Minute Stretch + Mobility OR 10-Minute Foam Rolling</string>
+    <string name="day7_name">Rest Day Or Stretch + Mobility OR 10-Minute Foam Rolling</string>
     <string name="day7_time">Workout Time: 10 Minutes</string>
     <string name="day7_Equipment">Equipment: Optional Foam Roller</string>
 
     <string name="day8">Day 8:</string>
-    <string name="day8_name">35-Minute Legs and Back Strength and Cardio</string>
+    <string name="day8_name">Legs and Back Strength and Cardio</string>
     <string name="day8_time">Workout Time: 35 Minutes</string>
     <string name="day8_Equipment">Equipment: Dumbbells</string>
 
     <string name="day9">Day 9:</string>
-    <string name="day9_name">30-Minute Arm Workout with Dumbbells</string>
+    <string name="day9_name">Arm Workout with Dumbbells</string>
     <string name="day9_time">Workout Time: 30 Minutes</string>
     <string name="day9_Equipment">Equipment: Dumbbells</string>
 
     <string name="day10">Day 10:</string>
-    <string name="day10_name">30-Minute Power Barre Workout</string>
+    <string name="day10_name">Power Barre Workout</string>
     <string name="day10_time">Workout Time: 30 Minutes</string>
     <string name="day10_Equipment">Equipment: Optional Light Dumbbells</string>
 
     <string name="day11">Day 11:</string>
-    <string name="day11_name">Rest Day OR 15-Minute Abs, Butt and Thighs</string>
+    <string name="day11_name">Rest Day OR  Abs, Butt and Thighs</string>
     <string name="day11_time">Workout Time: 15 Minutes</string>
     <string name="day11_Equipment">Equipment: None, Bodyweight Workout</string>
 
@@ -132,22 +132,22 @@
     <string name="day26_time">Workout Time: 30 Minutes</string>
 
     <string name="day27">Day 27:</string>
-    <string name="day27_name">30-Minute Full Body HIIT Workout (No Repeats)</string>
+    <string name="day27_name">3Full Body HIIT Workout (No Repeats)</string>
     <string name="day27_Equipment">Equipment: Dumbbells</string>
     <string name="day27_time">Workout Time: 30 Minutes</string>
 
     <string name="day28">Day 28:</string>
-    <string name="day28_name"> Rest Day 10-Minute Stretch + Mobility OR 10-Minute Foam Rolling</string>
+    <string name="day28_name">Stretch + Mobility OR 10-Minute Foam Rolling</string>
     <string name="day28_Equipment"> Equipment: Optional Foam Roller</string>
     <string name="day28_time">Workout Time: 10 Minutes</string>
 
     <string name="day29">Day 29:</string>
-    <string name="day29_name">30-Minute Total Body HIIT with Weights</string>
+    <string name="day29_name">Total Body HIIT with Weights</string>
     <string name="day29_Equipment">Equipment: Dumbbells</string>
     <string name="day29_time">Workout Time: 30 Minutes</string>
 
     <string name="day30">Day 30:</string>
-    <string name="day30_name">20-Minute Full Body HIIT Workout</string>
+    <string name="day30_name">Full Body HIIT Workout</string>
     <string name="day30_time">Workout Time: 20 Minutes</string>
     <string name="day30_Equipment">Equipment: Dumbbells</string>
 
