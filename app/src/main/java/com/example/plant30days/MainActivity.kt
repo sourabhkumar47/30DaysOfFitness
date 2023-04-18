@@ -52,14 +52,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun ExerciseList() {
-    LazyColumn(
-//        modifier = Modifier
-//            .padding(
-//                start = 16.dp,
-//                end = 16.dp,
-//                top = 16.dp
-//            )
-    ) {
+    LazyColumn {
         items(exercises) {
             ExerciseItem(
                 exercise = it
@@ -92,8 +85,7 @@ fun ExInfo(
     @StringRes exDay: Int,
     @StringRes exName: Int
 ) {
-    Column(
-    ) {
+    Column{
         Text(
             text = stringResource(exDay),
             Modifier.padding(top = 8.dp)
@@ -108,7 +100,7 @@ fun ExInfo(
 
 //Composable for image
 @Composable
-fun ExIcon(@DrawableRes exIcon: Int, modifier: Modifier = Modifier) {
+fun ExIcon(@DrawableRes exIcon: Int) {
     Image(
         painter = painterResource(exIcon),
         contentDescription = null,
