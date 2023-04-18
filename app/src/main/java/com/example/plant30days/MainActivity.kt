@@ -25,12 +25,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Color.Companion.Cyan
 import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.ExperimentalTextApi
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -85,6 +87,7 @@ fun ExerciseItem(exercise: Exercise, modifier: Modifier = Modifier) {
 }
 
 //Composable for date and name 
+@OptIn(ExperimentalTextApi::class)
 @Composable
 fun ExInfo(
     @StringRes exDay: Int,
@@ -92,6 +95,7 @@ fun ExInfo(
 ) {
     Box {
         Column {
+            val gradientColors = listOf(Color.Blue,Color.Red,Color.Yellow,Color.Green )
             Text(
                 text = stringResource(exDay),
                 Modifier.padding(top = 8.dp),
@@ -103,7 +107,12 @@ fun ExInfo(
             )
             Text(
                 text = stringResource(exName),
-                Modifier.padding(top = 8.dp)
+                Modifier.padding(top = 8.dp),
+                style = TextStyle(
+                    brush = Brush.linearGradient(
+                        colors = gradientColors
+                    )
+                )
             )
         }
     }
