@@ -6,7 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -35,6 +36,7 @@ import androidx.compose.ui.text.ExperimentalTextApi
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.plant30days.model.Data.ExerciseRepo.exercises
 import com.example.plant30days.model.Exercise
 import com.example.plant30days.ui.theme.Plant30DaysTheme
@@ -92,28 +94,33 @@ fun ExInfo(
     @StringRes exDay: Int,
     @StringRes exName: Int
 ) {
-    Box {
-        Column {
-            val gradientColors = listOf(Color.Blue,Color.Red,Color.Yellow,Color.Green )
-            Text(
-                text = stringResource(exDay),
-                Modifier.padding(top = 8.dp),
-                style = TextStyle(
-                    shadow = Shadow(
-                        color = Color.Blue, blurRadius = 10f
-                    )
-                )
+//    Box {
+    Column(
+        modifier = Modifier
+            .width(230.dp)
+            .padding(top = 8.dp),
+        verticalArrangement = Arrangement.Center
+    ) {
+        val gradientColors = listOf(Color.Blue, Color.Red, Color.Magenta, Color.Green)
+        Text(
+            text = stringResource(exDay),
+            style = TextStyle(
+                shadow = Shadow(
+                    color = Color.Blue, blurRadius = 10f
+                ),
+                fontSize = 18.sp
             )
-            Text(
-                text = stringResource(exName),
-                Modifier.padding(top = 8.dp),
-                style = TextStyle(
-                    brush = Brush.linearGradient(
-                        colors = gradientColors
-                    )
-                )
+        )
+        Text(
+            text = stringResource(exName),
+            style = TextStyle(
+                brush = Brush.linearGradient(
+                    colors = gradientColors
+                ),
+                fontSize = 22.sp
             )
-        }
+        )
+//        }
     }
 
 }
@@ -127,7 +134,7 @@ fun ExIcon(@DrawableRes exIcon: Int) {
         contentDescription = null,
         contentScale = ContentScale.Crop,
         modifier = Modifier
-            .size(84.dp)
+            .size(90.dp)
             .padding(8.dp)
             .clip(RoundedCornerShape(50))
     )
